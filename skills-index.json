@@ -1,0 +1,443 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-02",
+  "skills": [
+    {
+      "slug": "aeo-visibility",
+      "name": "aeo-visibility",
+      "category": "capabilities",
+      "description": "",
+      "tags": "",
+      "path": "skills/capabilities/aeo-visibility",
+      "files": [
+        "skills/capabilities/aeo-visibility/QUICKSTART.md",
+        "skills/capabilities/aeo-visibility/README.md",
+        "skills/capabilities/aeo-visibility/SKILL.md",
+        "skills/capabilities/aeo-visibility/package.json",
+        "skills/capabilities/aeo-visibility/src/analyzer.js",
+        "skills/capabilities/aeo-visibility/src/cli.js",
+        "skills/capabilities/aeo-visibility/src/engines.js",
+        "skills/capabilities/aeo-visibility/src/query-gen.js",
+        "skills/capabilities/aeo-visibility/src/reporter.js",
+        "skills/capabilities/aeo-visibility/src/research.js"
+      ]
+    },
+    {
+      "slug": "blog-scraper",
+      "name": "blog-scraper",
+      "category": "capabilities",
+      "description": "Scrape blog posts via RSS feeds (free, no API key) with Apify fallback for JS-heavy sites. Use when you need to monitor competitor blogs, track industry content, or aggregate blog posts by keyword.",
+      "tags": "",
+      "path": "skills/capabilities/blog-scraper",
+      "files": [
+        "skills/capabilities/blog-scraper/SKILL.md",
+        "skills/capabilities/blog-scraper/scripts/scrape_blogs.py"
+      ]
+    },
+    {
+      "slug": "brainstorming-partner",
+      "name": "brainstorming-partner",
+      "category": "capabilities",
+      "description": "Interactive brainstorming thought partner. Generates ideas, conducts field-based research, shares opinions, and asks clarifying questions to build on ideas collaboratively. Designed for open-ended discussion, not one-shot answers.",
+      "tags": "",
+      "path": "skills/capabilities/brainstorming-partner",
+      "files": [
+        "skills/capabilities/brainstorming-partner/SKILL.md"
+      ]
+    },
+    {
+      "slug": "brand-voice-extractor",
+      "name": "brand-voice-extractor",
+      "category": "capabilities",
+      "description": "Analyze a company's published content to extract their brand voice, writing style, and tone guidelines. Reads 10-20 of their best content pieces and produces a brand voice profile covering tone, vocabulary level, sentence structure, formatting patterns, CTAs, and target persona. Useful before writing outreach, content, or campaigns that should match a client's existing voice.",
+      "tags": "[brand-voice, writing-style, content-analysis, tone, copywriting]",
+      "path": "skills/capabilities/brand-voice-extractor",
+      "files": [
+        "skills/capabilities/brand-voice-extractor/SKILL.md"
+      ]
+    },
+    {
+      "slug": "company-contact-finder",
+      "name": "company-contact-finder",
+      "category": "capabilities",
+      "description": "Find decision-makers at a specific company using Crustdata and SixtyFour people search via Gooseworks MCP. Given a company name and target titles, returns a list of contacts with name, title, LinkedIn URL, and location.",
+      "tags": "[prospecting, people-search, contacts, decision-makers, crustdata, gooseworks]",
+      "path": "skills/capabilities/company-contact-finder",
+      "files": [
+        "skills/capabilities/company-contact-finder/SKILL.md"
+      ]
+    },
+    {
+      "slug": "conference-speaker-scraper",
+      "name": "conference-speaker-scraper",
+      "category": "capabilities",
+      "description": "Extract speaker names, titles, companies, and bios from conference websites. Supports direct HTML scraping and Apify web scraper fallback for JS-heavy sites. Use for pre-event research and outreach targeting.",
+      "tags": "",
+      "path": "skills/capabilities/conference-speaker-scraper",
+      "files": [
+        "skills/capabilities/conference-speaker-scraper/SKILL.md",
+        "skills/capabilities/conference-speaker-scraper/scripts/scrape_speakers.py"
+      ]
+    },
+    {
+      "slug": "content-asset-creator",
+      "name": "content-asset-creator",
+      "category": "capabilities",
+      "description": "Creates beautiful, branded HTML content assets — industry reports, landing pages, comparison sheets, one-pagers — from structured data. Uses Gamma API (preferred), v0.dev Platform API, or a self-hosted HTML template system with Tailwind CSS. Outputs self-contained HTML files that can be hosted as web pages or converted to PDF.",
+      "tags": "",
+      "path": "skills/capabilities/content-asset-creator",
+      "files": [
+        "skills/capabilities/content-asset-creator/SKILL.md"
+      ]
+    },
+    {
+      "slug": "create-html-slides",
+      "name": "frontend-slides",
+      "category": "capabilities",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "tags": "",
+      "path": "skills/capabilities/create-html-slides",
+      "files": [
+        "skills/capabilities/create-html-slides/README.md",
+        "skills/capabilities/create-html-slides/SKILL.md",
+        "skills/capabilities/create-html-slides/STYLE_PRESETS.md"
+      ]
+    },
+    {
+      "slug": "google-ad-scraper",
+      "name": "google-ad-scraper",
+      "category": "capabilities",
+      "description": "Scrape competitor ads from Google's Ads Transparency Center (Search, YouTube, Display, Gmail). Search by company name, domain, or advertiser ID. Returns ad creatives, formats, targeting regions, and campaign details. Use for competitive ad research and messaging analysis.",
+      "tags": "",
+      "path": "skills/capabilities/google-ad-scraper",
+      "files": [
+        "skills/capabilities/google-ad-scraper/SKILL.md",
+        "skills/capabilities/google-ad-scraper/scripts/search_google_ads.py"
+      ]
+    },
+    {
+      "slug": "hacker-news-scraper",
+      "name": "hacker-news-scraper",
+      "category": "capabilities",
+      "description": "Search Hacker News stories and comments using the free Algolia API. No Apify token needed. Use when you need to find HN discussions, track mentions, discover Show HN launches, or monitor tech community sentiment.",
+      "tags": "",
+      "path": "skills/capabilities/hacker-news-scraper",
+      "files": [
+        "skills/capabilities/hacker-news-scraper/SKILL.md",
+        "skills/capabilities/hacker-news-scraper/scripts/search_hn.py"
+      ]
+    },
+    {
+      "slug": "icp-persona-builder",
+      "name": "icp-persona-builder",
+      "category": "capabilities",
+      "description": "Research a company's ideal customer profiles and build detailed synthetic personas. Identifies 4-6 distinct buyer segments through web research, then creates rich, realistic personas with demographics, motivations, skepticism profiles, decision criteria, and language patterns. Saves personas as a reusable client asset that other skills can reference.",
+      "tags": "[icp, persona, buyer-research, segmentation]",
+      "path": "skills/capabilities/icp-persona-builder",
+      "files": [
+        "skills/capabilities/icp-persona-builder/SKILL.md"
+      ]
+    },
+    {
+      "slug": "icp-website-review",
+      "name": "icp-website-review",
+      "category": "capabilities",
+      "description": "Evaluate a website, landing page, content, or any online asset through the eyes of pre-built synthetic ICP personas. Loads personas from icp-persona-builder output, then runs them against target URLs. Supports three modes: structured scorecard, freeform focus group, and head-to-head competitive comparison. Reusable — run against the same site after changes, or against new content anytime.",
+      "tags": "[website-review, icp, persona, messaging, conversion, ux-feedback, competitive-analysis]",
+      "path": "skills/capabilities/icp-website-review",
+      "files": [
+        "skills/capabilities/icp-website-review/SKILL.md"
+      ]
+    },
+    {
+      "slug": "job-posting-intent",
+      "name": "job-posting-intent",
+      "category": "capabilities",
+      "description": "Detect buying intent from job postings. When a company posts a job in your problem area, they've allocated budget and are actively thinking about the problem. This skill finds those companies, qualifies them, extracts personalization context, and outputs everything to a Google Sheet. Does NOT do outreach — just delivers qualified leads with reasoning.",
+      "tags": "[signal-detection, jobs, linkedin, intent, leads, apify, prospecting, google-sheets]",
+      "path": "skills/capabilities/job-posting-intent",
+      "files": [
+        "skills/capabilities/job-posting-intent/SKILL.md",
+        "skills/capabilities/job-posting-intent/scripts/create_sheet.py",
+        "skills/capabilities/job-posting-intent/scripts/create_sheet_mcp.py",
+        "skills/capabilities/job-posting-intent/scripts/search_jobs.py"
+      ]
+    },
+    {
+      "slug": "linkedin-commenter-extractor",
+      "name": "linkedin-commenter-extractor",
+      "category": "capabilities",
+      "description": "Extract commenters from LinkedIn posts via Apify. Returns commenter names, titles, LinkedIn profile URLs, and comment text. Use to find warm leads engaging with relevant discussions. No LinkedIn cookies required.",
+      "tags": "",
+      "path": "skills/capabilities/linkedin-commenter-extractor",
+      "files": [
+        "skills/capabilities/linkedin-commenter-extractor/SKILL.md",
+        "skills/capabilities/linkedin-commenter-extractor/scripts/extract_commenters.py"
+      ]
+    },
+    {
+      "slug": "linkedin-influencer-discovery",
+      "name": "linkedin-influencer-discovery",
+      "category": "capabilities",
+      "description": "Discover top LinkedIn influencers and voices by topic, industry, follower count, and country. Use when you need to find the top 100 voices in a space, build influencer lists for outreach, or identify thought leaders on LinkedIn.",
+      "tags": "",
+      "path": "skills/capabilities/linkedin-influencer-discovery",
+      "files": [
+        "skills/capabilities/linkedin-influencer-discovery/SKILL.md",
+        "skills/capabilities/linkedin-influencer-discovery/scripts/discover_influencers.py"
+      ]
+    },
+    {
+      "slug": "linkedin-post-research",
+      "name": "linkedin-post-research",
+      "category": "capabilities",
+      "description": "Search LinkedIn posts by keywords using Crustdata API directly, deduplicate and sort by engagement. Outputs to CSV or JSON. Use when researching LinkedIn content around specific topics.",
+      "tags": "",
+      "path": "skills/capabilities/linkedin-post-research",
+      "files": [
+        "skills/capabilities/linkedin-post-research/SKILL.md",
+        "skills/capabilities/linkedin-post-research/scripts/search_posts.py"
+      ]
+    },
+    {
+      "slug": "linkedin-profile-post-scraper",
+      "name": "linkedin-profile-post-scraper",
+      "category": "capabilities",
+      "description": "Scrape recent posts from LinkedIn profiles using Apify. Use when you need to monitor what specific people are posting on LinkedIn, track founder/exec activity, or gather LinkedIn content for competitive intelligence.",
+      "tags": "",
+      "path": "skills/capabilities/linkedin-profile-post-scraper",
+      "files": [
+        "skills/capabilities/linkedin-profile-post-scraper/SKILL.md",
+        "skills/capabilities/linkedin-profile-post-scraper/scripts/scrape_linkedin_posts.py"
+      ]
+    },
+    {
+      "slug": "luma-event-attendees",
+      "name": "luma-event-attendees",
+      "category": "capabilities",
+      "description": "Find speakers, hosts, and guest profiles at conferences and events on Luma. Two modes - free direct scrape for hosts, or Apify-powered search for full guest profiles with LinkedIn/Twitter/bio.",
+      "tags": "events, conferences, speakers, prospecting, luma, apify, outreach, signal-detection, attendees",
+      "path": "skills/capabilities/luma-event-attendees",
+      "files": [
+        "skills/capabilities/luma-event-attendees/README.md",
+        "skills/capabilities/luma-event-attendees/SKILL.md",
+        "skills/capabilities/luma-event-attendees/scripts/apify_client.py",
+        "skills/capabilities/luma-event-attendees/scripts/scrape_event.py"
+      ]
+    },
+    {
+      "slug": "meta-ad-scraper",
+      "name": "meta-ad-scraper",
+      "category": "capabilities",
+      "description": "Scrape competitor ads from Meta's Ad Library (Facebook, Instagram, Messenger, Threads, WhatsApp). Search by company name, Facebook Page URL, or keyword. Returns ad creatives, spend estimates, reach, impressions, and campaign details. Use for competitive ad research, messaging analysis, and creative inspiration.",
+      "tags": "",
+      "path": "skills/capabilities/meta-ad-scraper",
+      "files": [
+        "skills/capabilities/meta-ad-scraper/SKILL.md",
+        "skills/capabilities/meta-ad-scraper/scripts/search_meta_ads.py"
+      ]
+    },
+    {
+      "slug": "newsletter-sponsorship-finder",
+      "name": "newsletter-sponsorship-finder",
+      "category": "capabilities",
+      "description": "Find newsletters relevant to a target audience/industry for sponsorship opportunities. Discovers newsletters through web search, newsletter directories, and industry research. Returns newsletter name, author, estimated audience, topic focus, sponsorship rates (if available), and contact info.",
+      "tags": "",
+      "path": "skills/capabilities/newsletter-sponsorship-finder",
+      "files": [
+        "skills/capabilities/newsletter-sponsorship-finder/SKILL.md",
+        "skills/capabilities/newsletter-sponsorship-finder/scripts/search_newsletters.py"
+      ]
+    },
+    {
+      "slug": "product-hunt-scraper",
+      "name": "product-hunt-scraper",
+      "category": "capabilities",
+      "description": "Scrape Product Hunt trending products using Apify. Use when you need to discover new product launches, track competitors on Product Hunt, or monitor the startup ecosystem for relevant launches.",
+      "tags": "",
+      "path": "skills/capabilities/product-hunt-scraper",
+      "files": [
+        "skills/capabilities/product-hunt-scraper/SKILL.md",
+        "skills/capabilities/product-hunt-scraper/scripts/scrape_producthunt.py"
+      ]
+    },
+    {
+      "slug": "reddit-scraper",
+      "name": "reddit-scraper",
+      "category": "capabilities",
+      "description": "Scrape and search Reddit posts using Apify. Use when you need to find Reddit discussions, track competitor mentions, monitor product feedback, discover pain points, or analyze subreddit content. Supports keyword filtering, time-based searches, and subreddit-specific queries.",
+      "tags": "",
+      "path": "skills/capabilities/reddit-scraper",
+      "files": [
+        "skills/capabilities/reddit-scraper/SKILL.md",
+        "skills/capabilities/reddit-scraper/references/apify-config.md",
+        "skills/capabilities/reddit-scraper/scripts/search_reddit.py"
+      ]
+    },
+    {
+      "slug": "review-scraper",
+      "name": "review-scraper",
+      "category": "capabilities",
+      "description": "Scrape product reviews from G2, Capterra, and Trustpilot using Apify. Single script with platform dispatch. Use when you need to monitor competitor reviews, track product sentiment, or gather customer feedback from review sites.",
+      "tags": "",
+      "path": "skills/capabilities/review-scraper",
+      "files": [
+        "skills/capabilities/review-scraper/SKILL.md",
+        "skills/capabilities/review-scraper/scripts/scrape_reviews.py"
+      ]
+    },
+    {
+      "slug": "seo-domain-analyzer",
+      "name": "seo-domain-analyzer",
+      "category": "capabilities",
+      "description": "Pull real SEO metrics for any domain using Apify scrapers for Semrush and Ahrefs data. Gets domain authority, organic traffic estimates, keyword rankings, backlink profiles, top performing pages, and auto-discovers competitors from keyword overlap. No Semrush/Ahrefs subscription needed — uses Apify actors that scrape public pages.",
+      "tags": "[seo, semrush, ahrefs, traffic, keywords, backlinks, competitive-intel]",
+      "path": "skills/capabilities/seo-domain-analyzer",
+      "files": [
+        "skills/capabilities/seo-domain-analyzer/SKILL.md",
+        "skills/capabilities/seo-domain-analyzer/scripts/analyze_domain.py"
+      ]
+    },
+    {
+      "slug": "seo-traffic-analyzer",
+      "name": "seo-traffic-analyzer",
+      "category": "capabilities",
+      "description": "Analyze a website's SEO visibility, keyword rankings, traffic estimates, and competitive positioning. Uses web search probes, SimilarWeb (free tier via web), and site: queries to build an SEO profile without requiring paid tool subscriptions. Useful for competitive intel, gap analysis, and reverse-engineering a company's organic acquisition strategy.",
+      "tags": "[seo, traffic, competitive-intel, organic-growth, web-search]",
+      "path": "skills/capabilities/seo-traffic-analyzer",
+      "files": [
+        "skills/capabilities/seo-traffic-analyzer/SKILL.md"
+      ]
+    },
+    {
+      "slug": "site-content-catalog",
+      "name": "site-content-catalog",
+      "category": "capabilities",
+      "description": "Crawl a website's sitemap and blog index to build a complete content inventory. Lists every page with URL, title, publish date, content type, and topic cluster. Groups content by category and topic. Optionally deep-reads top N pages for quality analysis and funnel stage tagging. Use before SEO audits, content gap analysis, or brand voice extraction.",
+      "tags": "[seo, content, inventory, sitemap, blog, content-strategy]",
+      "path": "skills/capabilities/site-content-catalog",
+      "files": [
+        "skills/capabilities/site-content-catalog/SKILL.md",
+        "skills/capabilities/site-content-catalog/scripts/catalog_content.py"
+      ]
+    },
+    {
+      "slug": "twitter-scraper",
+      "name": "twitter-scraper",
+      "category": "capabilities",
+      "description": "Search and scrape Twitter/X posts using Apify. Use when you need to find tweets, track brand mentions, monitor competitors on Twitter, or analyze Twitter discussions. Uses Twitter native search syntax (since:/until:) for reliable date filtering.",
+      "tags": "",
+      "path": "skills/capabilities/twitter-scraper",
+      "files": [
+        "skills/capabilities/twitter-scraper/SKILL.md",
+        "skills/capabilities/twitter-scraper/scripts/search_twitter.py"
+      ]
+    },
+    {
+      "slug": "visual-brand-extractor",
+      "name": "visual-brand-extractor",
+      "category": "capabilities",
+      "description": "Extract visual branding (colors, typography, layout patterns) from a client's website and generate a style preset compatible with the HTML slides skill and a brand config JSON for the content asset creator. Uses WebFetch to read pages and analyzes CSS/HTML to identify the color palette, font pairings, and aesthetic patterns.",
+      "tags": "[brand-identity, visual-design, css-analysis, style-extraction]",
+      "path": "skills/capabilities/visual-brand-extractor",
+      "files": [
+        "skills/capabilities/visual-brand-extractor/SKILL.md"
+      ]
+    },
+    {
+      "slug": "web-archive-scraper",
+      "name": "web-archive-scraper",
+      "category": "capabilities",
+      "description": "Search the Wayback Machine for archived versions of websites. Extract cached pages, customer lists, testimonials, and partner directories from sites that have changed or gone offline. Uses the free CDX API — no API key needed.",
+      "tags": "",
+      "path": "skills/capabilities/web-archive-scraper",
+      "files": [
+        "skills/capabilities/web-archive-scraper/SKILL.md",
+        "skills/capabilities/web-archive-scraper/scripts/search_archive.py"
+      ]
+    },
+    {
+      "slug": "youtube-apify-transcript",
+      "name": "youtube-apify-transcript",
+      "category": "capabilities",
+      "description": "Fetch YouTube transcripts via APIFY API. Works from cloud IPs (Hetzner, AWS, etc.) by bypassing YouTube's bot detection. Free tier includes $5/month credits (~714 videos). No credit card required.",
+      "tags": "youtube, transcript, apify, video, subtitles, captions, cloud-ip, free-tier, web-scraping",
+      "path": "skills/capabilities/youtube-apify-transcript",
+      "files": [
+        "skills/capabilities/youtube-apify-transcript/README.md",
+        "skills/capabilities/youtube-apify-transcript/SKILL.md",
+        "skills/capabilities/youtube-apify-transcript/package.json",
+        "skills/capabilities/youtube-apify-transcript/scripts/fetch_transcript.py"
+      ]
+    },
+    {
+      "slug": "youtube-watcher",
+      "name": "youtube-watcher",
+      "category": "capabilities",
+      "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
+      "tags": "",
+      "path": "skills/capabilities/youtube-watcher",
+      "files": [
+        "skills/capabilities/youtube-watcher/SKILL.md",
+        "skills/capabilities/youtube-watcher/scripts/get_transcript.py"
+      ]
+    },
+    {
+      "slug": "company-current-gtm-analysis",
+      "name": "company-current-gtm-analysis",
+      "category": "composites",
+      "description": "Comprehensive GTM analysis of any target company. Researches what a company is currently doing across all go-to-market dimensions — content/blog, founder LinkedIn activity, SEO/traffic, hiring signals, social/community presence, customer acquisition channels, podcast appearances, review sites, competitive positioning, and partnerships. Produces a structured report identifying what's working, what's missing, and where white space exists for new strategies. Use before designing GTM strategies for a client or prospect.",
+      "tags": "",
+      "path": "skills/composites/company-current-gtm-analysis",
+      "files": [
+        "skills/composites/company-current-gtm-analysis/SKILL.md"
+      ]
+    },
+    {
+      "slug": "competitor-intel",
+      "name": "competitor-intel",
+      "category": "composites",
+      "description": "Competitor intelligence system. Track competitors across Reddit, Twitter/X, and LinkedIn. Run one-time deep research to create competitor profiles, then automate daily/weekly monitoring with consolidated reports and actionable signals. Reports delivered as markdown files and via email.",
+      "tags": "",
+      "path": "skills/composites/competitor-intel",
+      "files": [
+        "skills/composites/competitor-intel/SKILL.md"
+      ]
+    },
+    {
+      "slug": "icp-website-audit",
+      "name": "icp-website-audit",
+      "category": "composites",
+      "description": "End-to-end website audit through ICP eyes. Builds synthetic personas (if they don't already exist), runs a structured scorecard review of the client's site, then runs a head-to-head competitive comparison against top competitors. Produces a single consolidated report with persona feedback, competitive positioning, and prioritized recommendations. The complete \"how do our buyers actually experience our site vs the competition?\" workflow.",
+      "tags": "[website-audit, icp, persona, competitive-analysis, messaging, conversion, compound-skill]",
+      "path": "skills/composites/icp-website-audit",
+      "files": [
+        "skills/composites/icp-website-audit/SKILL.md"
+      ]
+    },
+    {
+      "slug": "industry-scanner",
+      "name": "industry-scanner",
+      "category": "composites",
+      "description": "Daily industry intelligence scanner. Scans web, social media, news, blogs, and communities for industry-relevant events, trends, and signals. Produces a comprehensive intelligence briefing plus strategic GTM opportunity ideas. Orchestrates existing scraping skills — does not reimplement data collection.",
+      "tags": "",
+      "path": "skills/composites/industry-scanner",
+      "files": [
+        "skills/composites/industry-scanner/SKILL.md",
+        "skills/composites/industry-scanner/config/example-config.json",
+        "skills/composites/industry-scanner/templates/output-template.md"
+      ]
+    },
+    {
+      "slug": "seo-content-audit",
+      "name": "seo-content-audit",
+      "category": "composites",
+      "description": "Comprehensive SEO footprint analysis that orchestrates site-content-catalog, seo-domain-analyzer, and brand-voice-extractor into a single deep-dive report. Catalogs all content, pulls real SEO metrics, runs competitor analysis, builds topic/keyword and content-type gap matrices, extracts brand voice, and produces a prioritized recommendations report. The complete SEO audit for any company.",
+      "tags": "[seo, content-audit, competitive-analysis, gap-analysis, brand-voice, compound-skill]",
+      "path": "skills/composites/seo-content-audit",
+      "files": [
+        "skills/composites/seo-content-audit/SKILL.md"
+      ]
+    }
+  ]
+}
