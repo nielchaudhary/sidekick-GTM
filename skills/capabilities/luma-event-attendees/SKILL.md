@@ -2,7 +2,7 @@
 name: luma-event-attendees
 version: 1.0.0
 description: Find speakers, hosts, and guest profiles at conferences and events on Luma. Two modes - free direct scrape for hosts, or Apify-powered search for full guest profiles with LinkedIn/Twitter/bio.
-tags: [events, conferences, speakers, prospecting, luma, apify, outreach, signal-detection, attendees]
+tags: [lead-generation]
 ---
 
 # luma-event-attendees

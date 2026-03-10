@@ -6,7 +6,7 @@ description: >
   Catalogs all content, pulls real SEO metrics, runs competitor analysis, builds
   topic/keyword and content-type gap matrices, extracts brand voice, and produces
   a prioritized recommendations report. The complete SEO audit for any company.
-tags: [seo, content-audit, competitive-analysis, gap-analysis, brand-voice, compound-skill]
+tags: [seo]
 ---
 
 # SEO Content Audit

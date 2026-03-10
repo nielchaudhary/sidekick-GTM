@@ -6,7 +6,7 @@ description: >
   then runs them against target URLs. Supports three modes: structured scorecard,
   freeform focus group, and head-to-head competitive comparison. Reusable — run
   against the same site after changes, or against new content anytime.
-tags: [website-review, icp, persona, messaging, conversion, ux-feedback, competitive-analysis]
+tags: [research]
 ---
 
 # ICP Website Review

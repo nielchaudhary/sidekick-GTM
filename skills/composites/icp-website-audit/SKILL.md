@@ -7,7 +7,7 @@ description: >
   consolidated report with persona feedback, competitive positioning, and prioritized
   recommendations. The complete "how do our buyers actually experience our site vs
   the competition?" workflow.
-tags: [website-audit, icp, persona, competitive-analysis, messaging, conversion, compound-skill]
+tags: [research]
 ---
 
 # ICP Website Audit

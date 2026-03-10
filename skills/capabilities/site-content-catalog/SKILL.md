@@ -6,7 +6,7 @@ description: >
   Groups content by category and topic. Optionally deep-reads top N pages for
   quality analysis and funnel stage tagging. Use before SEO audits, content gap
   analysis, or brand voice extraction.
-tags: [seo, content, inventory, sitemap, blog, content-strategy]
+tags: [content, seo]
 ---
 
 # Site Content Catalog

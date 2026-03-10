@@ -6,7 +6,7 @@ description: >
   a brand config JSON for the content asset creator. Uses WebFetch to read pages
   and analyzes CSS/HTML to identify the color palette, font pairings, and
   aesthetic patterns.
-tags: [brand-identity, visual-design, css-analysis, style-extraction]
+tags: [brand]
 ---
 
 # Visual Brand Extractor

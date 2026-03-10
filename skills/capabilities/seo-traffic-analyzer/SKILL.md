@@ -6,7 +6,7 @@ description: >
   and site: queries to build an SEO profile without requiring paid tool subscriptions.
   Useful for competitive intel, gap analysis, and reverse-engineering a company's
   organic acquisition strategy.
-tags: [seo, traffic, competitive-intel, organic-growth, web-search]
+tags: [competitive-intel, seo]
 ---
 
 # SEO & Traffic Analyzer

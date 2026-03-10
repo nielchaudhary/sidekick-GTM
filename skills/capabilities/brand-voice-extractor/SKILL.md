@@ -6,7 +6,7 @@ description: >
   brand voice profile covering tone, vocabulary level, sentence structure, formatting
   patterns, CTAs, and target persona. Useful before writing outreach, content, or
   campaigns that should match a client's existing voice.
-tags: [brand-voice, writing-style, content-analysis, tone, copywriting]
+tags: [brand]
 ---
 
 # Brand Voice Extractor

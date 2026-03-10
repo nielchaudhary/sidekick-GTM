@@ -4,7 +4,7 @@ description: >
   Find decision-makers at a specific company using Crustdata and SixtyFour
   people search via Gooseworks MCP. Given a company name and target titles,
   returns a list of contacts with name, title, LinkedIn URL, and location.
-tags: [prospecting, people-search, contacts, decision-makers, crustdata, gooseworks]
+tags: [lead-generation]
 ---
 
 # company-contact-finder

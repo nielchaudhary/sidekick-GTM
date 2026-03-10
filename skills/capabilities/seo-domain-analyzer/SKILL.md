@@ -5,7 +5,7 @@ description: >
   data. Gets domain authority, organic traffic estimates, keyword rankings, backlink
   profiles, top performing pages, and auto-discovers competitors from keyword overlap.
   No Semrush/Ahrefs subscription needed — uses Apify actors that scrape public pages.
-tags: [seo, semrush, ahrefs, traffic, keywords, backlinks, competitive-intel]
+tags: [competitive-intel, seo]
 ---
 
 # SEO Domain Analyzer

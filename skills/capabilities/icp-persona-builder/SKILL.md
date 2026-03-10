@@ -6,7 +6,7 @@ description: >
   realistic personas with demographics, motivations, skepticism profiles, decision
   criteria, and language patterns. Saves personas as a reusable client asset that
   other skills can reference.
-tags: [icp, persona, buyer-research, segmentation]
+tags: [research]
 ---
 
 # ICP Persona Builder
